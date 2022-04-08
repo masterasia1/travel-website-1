@@ -1,10 +1,12 @@
 import React, {useState} from "react";
 import {Link} from 'react-router-dom'
+import { Button } from "./Button";
 
 
 function Navbar() {
     const [click, setclick] = useState(false);
-
+    const [button, setButton] = useState(true);
+    
     const handleClick = () => setclick(!click);
     const closeMobileMenu = () => setclick(false)
     return (
@@ -40,6 +42,7 @@ function Navbar() {
                         </Link>
                     </li>
                 </ul>
+                {button && <Button buttonStyle='btn--outline'> Sign up</Button>}
 
             </div>
         </nav>
