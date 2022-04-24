@@ -11,19 +11,19 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 
-                    src= 'images/img-3.jpg'
+                    src= 'images/img-6.jpg'
                     text='Drive through the desert'
                     label='Adventure'
                     path='/locations'
                     />
-                </ul>
-                <CardItem 
+                     <CardItem 
                     src= 'images/img-9.jpg'
                     text='Experience the sea'
                     label='Travel'
                     path='/locations'
                     />
-
+                </ul>
+               
             </div>
         </div>
         
