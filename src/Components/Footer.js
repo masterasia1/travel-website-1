@@ -5,7 +5,7 @@ function Footer() {
     <div className='footer-container'>
         <section className='footer-sibscription'>
             <p className='footer-subscription-heading'>
-                Sign up today to join the adventure
+                Sign up today to join the adventure!
             </p>
             <p className='footer-subscription-text'>
                 Get advice from van life experts 
