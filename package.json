@@ -1,5 +1,6 @@
 {
-  "name": "travel-website-1",
+  "name": "van-life",
+  "homepage": "https://asiamayfield.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
