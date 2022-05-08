@@ -6,6 +6,7 @@ import Home from './Components/pages/home';
 import Locations from './Components/pages/Locations';
 import Tips from './Components/pages/Tips';
 import SignUp from './Components/pages/SignUp';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path='/tips' exact element={<Tips />} />
       <Route path='/sign-up' exact element={<SignUp />} />
     </Routes>
+    <Footer />
 
     </Router>
 
