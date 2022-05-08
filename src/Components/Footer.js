@@ -6,7 +6,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className='footer-sibscription'>
+        <section className='footer-subscription'>
             <p className='footer-subscription-heading'>
                 Sign up today to join the adventure!
             </p>
@@ -22,23 +22,23 @@ function Footer() {
         </section>
         <div className='footer-links'>
             <div className='footer-link-wrapper'>
-                <div className='footer-link-items'>
+                <div className='footer-links-items'>
                     <h2>Why Van Life</h2>
                     <Link to='/sign-up'>First Steps</Link>
                     <Link to='/locations'>Places to See</Link>
                     <Link to='/tips'>Careers</Link>
                 </div>
-                <div className='footer-link-items'>
-                    <h2>Why Van Life</h2>
-                    <Link to='/sign-up'>First Steps</Link>
-                    <Link to='/locations'>Places to See</Link>
+                <div className='footer-links-items'>
+                    <h2>Learn More</h2>
+                    <Link to='/sign-up'>Types of Vans</Link>
+                    <Link to='/locations'>Top Van Lifers</Link>
                     <Link to='/tips'>Careers</Link>
                 </div>
-                <div className='footer-link-items'>
-                    <h2>Why Van Life</h2>
-                    <Link to='/sign-up'>First Steps</Link>
-                    <Link to='/locations'>Places to See</Link>
-                    <Link to='/tips'>Careers</Link>
+                <div className='footer-links-items'>
+                    <h2>Connect</h2>
+                    <Link to='/sign-up'>Stories</Link>
+                    <Link to='/locations'>Videos</Link>
+                    <Link to='/tips'>User Boards</Link>
                 </div>
             </div>
 
